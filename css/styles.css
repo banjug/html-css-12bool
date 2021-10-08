@@ -1,9 +1,27 @@
+body {
+    font-size: 10px;
+}
+
 [class*="col-"] {
     background-color: cadetblue;
     border: 1px solid white;
     color: white;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    vertical-align: middle;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+[class*="col-"] > [class*="col-"] {
+    background-color: coral;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+[class*="col-offset"] {
+    background-color: initial;
+    border: none;
+    color: initial;
+    padding: 0;
 }
