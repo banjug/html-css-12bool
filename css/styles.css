@@ -1,0 +1,9 @@
+[class*="col-"] {
+    background-color: cadetblue;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
