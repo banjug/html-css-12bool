@@ -18,10 +18,3 @@ body {
 .container {
     margin-bottom: 20px;
 }
-
-[class*="col-offset"] {
-    background-color: initial;
-    border: none;
-    color: initial;
-    padding: 0;
-}
